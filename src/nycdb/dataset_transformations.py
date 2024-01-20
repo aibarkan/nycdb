@@ -223,3 +223,8 @@ def hpd_omo_invoices(dataset):
 
 def hpd_omo_charges(dataset):
     return to_csv(dataset.files[1].dest)
+
+def dhs_daily_shelter_count(dataset):
+    return to_csv(dataset.files[0].dest, header_replacements={'table': 'series_name'})
+
+    

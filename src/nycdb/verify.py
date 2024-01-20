@@ -97,7 +97,8 @@ TABLES = {
     'hpd_conh': {'hpd_conh': 1_000},
     'dcp_housingdb': {'dcp_housingdb': 70_000},
     'speculation_watch_list': { 'speculation_watch_list': 500 },
-    'dob_certificate_occupancy': {'dob_certificate_occupancy': 138_000}
+    'dob_certificate_occupancy': {'dob_certificate_occupancy': 138_000},
+    'dhs_daily_shelter_count': {'dhs_daily_shelter_count': 7_000}
 }
 
 
